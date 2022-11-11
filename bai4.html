@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Bài 4a
+<input type="text" id="num">
+<button type="submit" onclick="process()">Kết quả</button>
+<p id="view" ></p>
+<script>
+  function process (){
+    let a = document.getElementById("num").value;
+    let chuvi = "chu vi là " + (a * 4) + ",";
+    let S = " diện tích là " + (a * a);
+    let result= (chuvi) + (S);
+    document.getElementById("view").innerHTML= result ;
+  }
+</script> -->
+
+<!--
+<input type="text" id="so1">
+<input type="text" id="so2">
+<p id="ketqua"></p>
+<button type="submit" onclick="process()">kết quả</button>
+<script>
+    function process () {
+
+        let a = document.getElementById("so1").value;
+        let b = document.getElementById("so2").value;
+        let c = a * a;
+        let d = a ** b;
+        let e = (c) + " " + (d);
+        document.getElementById("ketqua").innerHTML = e;
+    }
+
+</script>
+-->
+<!-- bài 4c
+<input type="text" id="num1">
+<input type="text" id="num2">
+<button  type="button" onclick="tong()"> Tính </button>
+<p id ="result"></p>
+<script>
+    function tong(){
+        let a = +document.getElementById("num1").value;
+        let b = +document.getElementById("num2").value;
+        let c = +Math.abs(a - b ) +1;
+        document.getElementById("result").innerHTML = ((a+b)*c)/2;
+
+    }
+</script>
+-->
+<!-- bai 4d
+<input type="number" id="nam">
+<button type="submit" onclick="process()">Tính thế kỉ</button>
+<p id="view"></p>
+<script>
+    function process () {
+        let a = document.getElementById("nam").value;
+        let tk = (a - (a % 100))/100 + 1;
+        document.getElementById("view").innerHTML= tk;
+    }
+
+</script>
+-->
+<!-- bài 4e
+
+<input type="text" id="num1">
+<input type="text" id="num2">
+<input type="text" id="num3">
+<button type="submit" onclick="process()"> Kiểm tra</button>
+<p id="view"></p>
+
+
+<script>
+    function process() {
+        let a = +document.getElementById("num1").value;
+        let b = +document.getElementById("num2").value;
+        let c = +document.getElementById("num3").value;
+        if (((a + b) > c) && ((a + c) > b) && ((b + c) > a)) {
+            if (a == b && b == c && c == a) {
+                document.getElementById("view").innerHTML = "Đây là tam giác đều"
+            } else
+            if(a == b || a == c || b == c){document.getElementById("view").innerHTML="Đây là tam giác cân" }
+            else if((a*a) == (b*b) + (c*c) || (b*b) == (a*a)+(c*c)||(c*c) == (a*a)+(b*b))
+            {document.getElementById("view").innerHTML="Đây là tam giác vuông" }
+
+            }
+        else
+            {
+                document.getElementById("view").innerHTML = " Đây ko phải là tam giác"
+            }
+
+    }
+</script>
+-->
+
+
+
+
+</body>
+</html>
